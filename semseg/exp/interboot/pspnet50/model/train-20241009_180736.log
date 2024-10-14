@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\code\Py\actual\Ai\inter_boot_2024\semseg\exp\interboot\pspnet50\train.py", line 410, in <module>
+    main()
+  File "C:\Users\hp\Documents\code\Py\actual\Ai\inter_boot_2024\semseg\exp\interboot\pspnet50\train.py", line 84, in main
+    check(args)
+  File "C:\Users\hp\Documents\code\Py\actual\Ai\inter_boot_2024\semseg\exp\interboot\pspnet50\train.py", line 62, in check
+    assert (args.train_h - 1) % 8 == 0 and (args.train_w - 1) % 8 == 0
+AssertionError
